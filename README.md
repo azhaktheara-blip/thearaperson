@@ -1,4 +1,4 @@
-# Alex Morgan — FlyStudio-inspired portfolio
+# thearaperson — FlyStudio-inspired portfolio
 
 A complete Django 5.2 application with an original editorial visual design: ivory and ink, acid-yellow accents, expressive typography, custom procedural artwork, and responsive multi-page navigation. It uses Bootstrap 5’s grid, Google Fonts, Phosphor Icons, GSAP + ScrollTrigger, Lenis, Swiper, and a native accessible dialog lightbox.
 
