@@ -1,0 +1,10 @@
+Django>=5.2.8,<5.3
+dj-database-url>=2.3,<3
+psycopg[binary]>=3.2,<4
+django-storages[s3]>=1.14,<2
+Pillow>=11,<13
+python-dotenv>=1,<2
+whitenoise>=6.9,<7
+gunicorn>=23,<24
+bleach>=6.2,<7
+Markdown>=3.7,<4

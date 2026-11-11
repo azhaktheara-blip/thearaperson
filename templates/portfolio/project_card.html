@@ -1,0 +1,4 @@
+<article class="project-card">
+<a href="{{ project.get_absolute_url }}" class="project-image" aria-label="View {{ project.title }} case study">{% include 'portfolio/artwork.html' %}<span class="project-open">↗</span></a>
+<div class="project-info"><div><h3><a href="{{ project.get_absolute_url }}">{{ project.title }}</a></h3><p>{{ project.category }} <span>·</span> {{ project.role }}</p></div><span>{{ project.year }}</span></div>
+</article>

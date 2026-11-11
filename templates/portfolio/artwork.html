@@ -1,0 +1,8 @@
+{% load static %}
+<div class="project-art art-{{ project.artwork }}" aria-hidden="true">
+{% if project.cover_image %}<img src="{{ project.cover_image.url }}" alt="" loading="lazy">
+{% elif project.artwork == 'orbit' %}<div class="orbit-grid"></div><span class="art-label">ORBIT®<small>BEYOND THE EVERYDAY</small></span><div class="orbit-object"><span></span><span></span><span></span><span></span><span></span></div><span class="art-bottom">A NEW PERSPECTIVE.<span>EST. 2026 ↗</span></span>
+{% elif project.artwork == 'forma' %}<div class="forma-top">forma<span>Objects for living.</span></div><div class="forma-scene"><div class="lamp"><div></div></div><div class="vase"></div><div class="sphere"></div></div><span class="forma-bottom">Less, but considered.<span>COLLECTION 001</span></span>
+{% elif project.artwork == 'aura' %}<div class="aura-blob"></div><span class="aura-logo">aura.</span><span class="aura-copy">A little more<br>in your element.</span><span class="art-bottom">WELLNESS, REIMAGINED. ↗</span>
+{% else %}<span class="mono-logo">MONO<br>ARCHIVE®</span><div class="mono-circle"></div><span class="art-bottom">CULTURE IN MOTION. ↗</span>{% endif %}
+</div>
